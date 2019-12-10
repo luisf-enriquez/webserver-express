@@ -5,7 +5,7 @@ const hbs = require('hbs');
 
 require('./helpers/helpers')
 
-const port = process.evv.PORT || 3000;
+const port = process.env.PORT || 3000;
 
 const dirNode_modules = path.join(__dirname, './node_modules');
 
