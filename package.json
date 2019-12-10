@@ -1,0 +1,21 @@
+{
+    "name": "6-websrever-express",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js",
+        "nodemon": "nodemon server.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "bootstrap": "^4.4.1",
+        "express": "^4.17.1",
+        "hbs": "^4.0.6",
+        "jquery": "^3.4.1",
+        "nodemon": "^2.0.1",
+        "popper.js": "^1.16.0"
+    }
+}
